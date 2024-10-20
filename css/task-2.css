@@ -1,0 +1,18 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    width: 1128px;
+    gap: 24px;
+}
+
+
+.gallery img {
+    width: 360px;
+    height: 300px;
+}
+
+.gallery li {
+    list-style: none;
+}
